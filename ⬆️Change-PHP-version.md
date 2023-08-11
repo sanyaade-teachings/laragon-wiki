@@ -4,7 +4,7 @@
 **2. Stop all**
 > ![image](https://user-images.githubusercontent.com/24395219/215270154-c89461ae-5738-4e1f-a847-12fc7098a901.png)
 
-**3. Unzip the content into Laragon's PHP directory (i.e. C:\laragon\bin\php**
+**3. Unzip the content into Laragon's PHP directory (i.e. C:\laragon\bin\php\)**
 
 **3.1. Check the folder structure**
 > Needs to look like this 👇
