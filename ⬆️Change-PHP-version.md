@@ -6,7 +6,7 @@
 
 **3. Unzip the content into Laragon's PHP directory (i.e. C:\laragon\bin\php\)**
 
-**3.1. Check the folder structure**
+**4. Check the folder structure**
 > Needs to look like this 👇
 
 > ![image](https://user-images.githubusercontent.com/24395219/215270269-e1a99218-10ee-444a-babc-1b5c87c3d70a.png)
