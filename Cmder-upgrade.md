@@ -1,4 +1,4 @@
-1. cmder https://cmder.net/ scroll down to download section.
+1. cmder https://cmder.app/ scroll down to download section.
 1. delete the original laragon cmder folder
 1. unzip cmder.zip and create laragon.cmd file my path-> `X:\laragon\bin\cmder\config\profile.d\laragon.cmd`
 1. laragon.cmd content
