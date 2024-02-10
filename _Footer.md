@@ -1,1 +1,1 @@
-`>_<`
+**Copyright 2024, @leokhoa and all contributors. All Right Reserved**
