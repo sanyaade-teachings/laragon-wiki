@@ -1,5 +1,3 @@
-# \[Tutorial\] How to manage "Quick app"
-
 Click Menu > Quick app > Wordpress, specify a "Name" (ex. myblog), Laragon will:
 
 - Create a corresponding database: **myblog**
