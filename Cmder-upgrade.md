@@ -1,8 +1,9 @@
 1. cmder https://cmder.app/ scroll down to download section.
-1. Laragon already includes `Git`, so you only need the `Cmder Mini` version
-1. delete the original laragon cmder folder
-1. unzip cmder.zip and create laragon.cmd file my path-> `X:\laragon\bin\cmder\config\profile.d\laragon.cmd`
-1. laragon.cmd content
+2. Laragon already includes `Git`, so you only need the `Cmder Mini` version
+3. delete the original laragon cmder folder
+4. unzip cmder.zip and create laragon.cmd file my path-> `X:\laragon\bin\cmder\config\profile.d\laragon.cmd`
+5. laragon.cmd content
+
 ```
 @echo off
 
@@ -65,8 +66,9 @@ if exist "%USER_DIR%\user.cmd" (
 exit /b 0
 
 ```
-5. Add Cmder alias => edit file `X:\laragon\bin\cmder\config\user_aliases.cmd`
+6. Add Cmder alias => edit file `X:\laragon\bin\cmder\config\user_aliases.cmd`
 ```
+
 cr=composer
 cri=composer install
 crd=composer dump-autoload $*
@@ -87,6 +89,7 @@ ndev=npm run dev
 nprod=npm run prod
 nhot=npm run hot
 ```
-6. Restart Cmder
-7. pamc Post =>Controller created successfully.
-8. Finish work！
+
+7. Restart Cmder
+8. pamc Post =>Controller created successfully.
+9. Finish work！
