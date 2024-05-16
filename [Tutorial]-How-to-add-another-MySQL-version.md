@@ -37,3 +37,8 @@ Note: If you use MariaDB, extract it to: **{LARAGON_ROOT}\bin\mysql\mariadb-10.2
 ### Menu
 
 ![Laragon MySQL Menu](https://github.com/leokhoa/laragon/assets/40126936/27edf02c-5f99-4def-a4ca-8d597c9d9036)
+
+## MySQL 8.4
+
+MySQL 8.4 has removed plain \[native\] passwords and **my.ini** is a different template from MySQL 8.0. Additional steps are required to install it, see the guide by [MeorA](https://github.com/meorajrul)
+ <https://gist.github.com/meorajrul/b57803bf1b4ddfd2f93e6ad37c3ac5f2>
