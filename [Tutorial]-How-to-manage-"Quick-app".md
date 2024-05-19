@@ -1,4 +1,6 @@
-Click Menu > Quick app > Wordpress, specify a "Name" (ex. myblog), Laragon will:
+## Create a Worpress example
+
+Click **Menu > Quick app > Wordpress**, specify a "Name" (ex. **myblog**), Laragon will:
 
 - Create a corresponding database: **myblog**
 - Download the latest version of **WordPress**
@@ -51,7 +53,7 @@ Drupal 8=https://ftp.drupal.org/files/projects/drupal-8.5.5.tar.gz
 
 ------------------------------------------------------
 
-# Laravel
+## Laravel
 
 Laravel=composer create-project laravel/laravel %s --prefer-dist
 
@@ -79,3 +81,43 @@ Symfony=composer create-project symfony/framework-standard-edition %s
 **AutoCreateDatabase**: if true, Laragon will automatically create a database corresponding to the project name.
 
 **Cached**: if true, compressed files from remote servers will be stored in **{LARAGON_ROOT}\tmp\cached**, next time Laragon doesn't need to download them.
+
+## Drupal
+
+Copied for original discussion [Is it possible to add Drupal 9 & 10 as quick add option #408](https://github.com/leokhoa/laragon/discussions/408)
+
+Laragon is very flexible with customising the quick app menu.
+
+I'm not familiar with Drupal, but I took a quick look at the docs and tried adding the following to the menu (Laragon menu > Quick app > Configuration...):
+
+```text
+# Drupal
+Drupal=composer create-project drupal/recommended-project %s 
+```
+
+![Quick add](https://user-images.githubusercontent.com/40126936/218208649-7a7954b8-26ff-4601-9c45-7615a7cb95fd.png)
+
+According to the [drupal download docs](https://www.drupal.org/download), after running the composer command above I need to run
+
+```shell
+cd drupal && php -d memory_limit=256M web/core/scripts/drupal quick-start demo_umami
+```
+
+🤷
+
+I tried to use **quick app** without the command
+
+- I used the project name  **drupal-test**, 
+- The database **drupal-test** was automatically created.  (I would prefer **drupal_test** myself)
+- The project was created in laragon\www\drupal-test
+
+After installation and accepting the prompt to accept changes, allow elevated privileges. The website could be opened using the pretty URL <http://drupal-test.test>
+
+![Drupal 10](https://user-images.githubusercontent.com/40126936/218209614-faa86dcc-c79a-47e2-9686-b5fbcd9a11c0.png)
+
+For Drupal 9 I suspect a specific version will need to be installed, try:
+
+```text
+Drupal-9=composer create-project 'drupal/recommended-project:^9.0' %s
+```
+
