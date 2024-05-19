@@ -16,3 +16,14 @@ Here, you will be given a guide to using all the features in Laragon
 - [Laragon feature: Procfile ‐ What is it](https://github.com/leokhoa/laragon/wiki/Laragon-feature:-Procfile-%E2%80%90-What-is-it)
 - [Updating ngrok](https://github.com/leokhoa/laragon/wiki/Updating-ngrok)
 - [Change PHP version](https://github.com/leokhoa/laragon/wiki/%E2%AC%86%EF%B8%8FChange-PHP-version)
+
+## External content
+
+### Blogs and articles
+
+- [How to set up Laragon on a new Windows computer](https://pen-y-fan.github.io/2022/11/07/how-to-set-up-laragon-on-a-new-windows-computer/) 6 part series of blog post by Pen-Y-Fan including installation, permissions, system tray icon, enable security (SSL), MailHog/MailPit, and add Laragon to path
+- other external content may be added here.
+
+### Videos
+
+- add useful videos here...
