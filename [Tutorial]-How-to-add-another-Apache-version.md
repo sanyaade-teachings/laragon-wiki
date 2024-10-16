@@ -27,7 +27,7 @@ Very easy huh. That's all forks!
 
 ![Laragon Menu](https://github.com/leokhoa/laragon/assets/40126936/d2a9c286-f5b4-4b6d-9e17-2b29a69d5458)
 
-### Workaround for use of Fast CGI (non-thread safe PHP) with VS17 versions of Apache
+## Workaround for use of Fast CGI (non-thread safe PHP) with VS17 versions of Apache
 The latest versions of PHP are compiled with VS17. If you use this with a non-thread-safe version of PHP, Laragon will correctly identify that Apache needs to use Fast-CGI and will write and include a `{LARAGON_BASE}\etc\apache2\fcgid.conf` file. 
 
 Laragon 6 should fall back to using a compatible VS16 version of the Fast-CGI module that actually exists in `{LARAGON_BASE}\etc\apache2\modules` but unfortunately it generates a line to use a non-existent VS17 version. As a consequence when you try to start Apache you get an error about the required module not existing.
