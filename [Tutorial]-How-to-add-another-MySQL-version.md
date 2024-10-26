@@ -18,6 +18,8 @@ C:\laragon
 
 Very easy huh. That's all forks!
 
+>**Hint:** You might want to set up `my.ini` for your machine configuration to speed up database performance.
+
 ## MariaDB
 
 _**Hint:** This tutorial also applies for **MariaDB**._
