@@ -50,7 +50,7 @@ Exit Laragon and re-open, to load the new config.
 
 ### Add
 
-For example, to install PHP 8.2 NTS 16-bit:
+For example, to install PHP 8.2 NTS 64-bit:
 
 Laragon menu > Tools > Quick add > php82nts
 
