@@ -15,4 +15,4 @@
 > <img width="563" alt="image" src="https://user-images.githubusercontent.com/24395219/215269353-b4d04d4e-8801-4030-bced-55735c9f0754.png">
 
 -- Friendly reminder --
-Restart Apache every time you chance the version. 👌
+Restart Apache every time you change the version. 👌
