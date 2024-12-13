@@ -2,7 +2,12 @@
 
 Here, you will be given a guide to using all the features in Laragon
 
+## Official docs
+
 - [Laragon docs](https://laragon.org/docs/)
+
+## Wiki - created by the Laragon community 
+
 - [\[Tutorial\] How to add another Apache version](https://github.com/leokhoa/laragon/wiki/%5BTutorial%5D-How-to-add-another-Apache-version)
 - [\[Tutorial\] How to add another MySQL version](https://github.com/leokhoa/laragon/wiki/%5BTutorial%5D-How-to-add-another-MySQL-version)
 - [\[Tutorial\] How to add another Node.js version to Laragon](https://github.com/leokhoa/laragon/wiki/%5BTutorial%5D-How-to-add-another-Node.js-version-to-Laragon)
@@ -16,6 +21,7 @@ Here, you will be given a guide to using all the features in Laragon
 - [Laragon feature: Procfile ‐ What is it](https://github.com/leokhoa/laragon/wiki/Laragon-feature:-Procfile-%E2%80%90-What-is-it)
 - [Updating ngrok](https://github.com/leokhoa/laragon/wiki/Updating-ngrok)
 - [Change PHP version](https://github.com/leokhoa/laragon/wiki/%E2%AC%86%EF%B8%8FChange-PHP-version)
+- [Miscellaneous](https://github.com/leokhoa/laragon/wiki/Miscellaneous)
 
 ## External content
 
