@@ -6,7 +6,7 @@ These topics don't have a full tutorial, yet they provide useful information. Fe
 
 > Put the command in `usr/user.cmd`
 
-# New dropdown menu items with additional functions [#911](https://github.com/leokhoa/laragon/issues/911)
+## New dropdown menu items with additional functions [#911](https://github.com/leokhoa/laragon/issues/911)
 
 >  You can add it into the Procfile.
 
