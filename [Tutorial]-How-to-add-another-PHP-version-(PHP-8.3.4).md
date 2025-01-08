@@ -39,10 +39,10 @@ Add the versions of PHP as required:
 
 ```ini
 # PHP
-php81nts=https://windows.php.net/downloads/releases/php-8.1.31-nts-Win32-vs16-x64.zip
-php82nts=https://windows.php.net/downloads/releases/php-8.2.26-nts-Win32-vs16-x64.zip
-php83nts=https://windows.php.net/downloads/releases/php-8.3.14-nts-Win32-vs16-x64.zip
-php84nts=https://windows.php.net/downloads/releases/php-8.4.1-nts-Win32-vs17-x64.zip
+php81nts=https://windows.php.net/downloads/releases/php-8.1.31-Win32-vs16-x64.zip
+php82nts=https://windows.php.net/downloads/releases/php-8.2.27-Win32-vs16-x64.zip
+php83nts=https://windows.php.net/downloads/releases/php-8.3.15-Win32-vs16-x64.zip
+php84nts=https://windows.php.net/downloads/releases/php-8.4.2-Win32-vs17-x64.zip
 ```
 
 Additional PHP versions can be seen in the current[releases](https://windows.php.net/downloads/releases/) or [archives](https://windows.php.net/downloads/releases/archives/).
