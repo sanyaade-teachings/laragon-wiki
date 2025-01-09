@@ -28,6 +28,7 @@ Here, you will be given a guide to using all the features in Laragon
 ### Blogs and articles
 
 - [How to set up Laragon on a new Windows computer](https://pen-y-fan.github.io/2022/11/07/how-to-set-up-laragon-on-a-new-windows-computer/) 6 part series of blog post by Pen-Y-Fan including installation, permissions, system tray icon, enable security (SSL), MailHog/MailPit, and add Laragon to path
+- [Community Projects related to Laragon](https://github.com/leokhoa/laragon/wiki/Community-Projects)
 - other external content may be added here.
 
 ### Videos
