@@ -10,3 +10,6 @@ These topics don't have a full tutorial, yet they provide useful information. Fe
 
 >  You can add it into the Procfile.
 
+## How to change MySQL / MariaDB password?
+
+> Have a look at [this comment](https://github.com/leokhoa/laragon/issues/184#issuecomment-1513890172).
